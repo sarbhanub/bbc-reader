@@ -1,0 +1,17 @@
+# BBC Reader v1.0
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+icon: ./static/favicon.ico
+micros:
+  - name: bbc-reader
+    src: ./
+    engine: python3.9
+    primary: true
+    run: gunicorn app:app
+    presets:
+      env:
+        - name: URI_SECRET
+          description: uri secret key
+          default: "mongodb://localhost:27017/"
+    public_routes:
+      - "/*"

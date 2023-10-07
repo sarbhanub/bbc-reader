@@ -1,0 +1,47 @@
+/* logo.css */
+.logo-pane {
+	text-align: center;
+	padding: 16px;
+	background-color: #fff;
+	display: inline-flex;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.logo-box {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background-color: black;
+	padding: 2px;
+	margin: 3px;
+}
+.logo-char {
+	font-family: Cabin, sans-serif;
+	font-size: 22px;
+	font-weight: bolder;
+	color: white;
+	line-height: 28px;
+	text-align: center;
+}
+/* legend css */
+.legend-container {
+	position: absolute;
+	margin: 12px;
+	top: 10px;
+	right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.legend-color {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	display: inline-block;
+}
+.legend-text {
+	font-size: 12px;
+	margin-right: 10px;
+}
