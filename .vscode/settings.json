@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.env.windows": {
+        "URI_SECRET": "mongodb://localhost:27017"
+    },
+    "terminal.integrated.env.linux": {
+        "URI_SECRET": "mongodb://localhost:27017"
+    },
+    "terminal.integrated.env.osx": {
+        "URI_SECRET": "mongodb://localhost:27017"
+    }
+}
