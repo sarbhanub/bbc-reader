@@ -6,8 +6,7 @@ BBC Reader is a web-app that is built around the database which is being craeted
 
 ## See the app in action 
 
-Open on Deta [(link)](https://bbcreader-1-r8262778.deta.app)\
-Open on Render (Slower) [(link)](https://bbc-reader.onrender.com)
+Open on Render [(link)](https://bbc-reader.onrender.com)
 
 ## Features
 
@@ -30,7 +29,7 @@ Please note that scraping websites may be subject to legal restrictions or terms
 
 # BBC Scraper 
 
-[Link](https://github.com/sarbhanub/bbc-scraper) (Private)
+[Link](https://github.com/sarbhanub/bbc-scraper)
 
 This repository contains a scraper built with Python and integrated with GitHub Actions to fetch RSS feeds from BBC multiple times a day. The scraper utilizes the power of GitHub Actions to automate the scraping process.
 
